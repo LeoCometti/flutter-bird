@@ -1,8 +1,12 @@
 # Flutter Bird
 
+[![License: MIT](https://img.shields.io/github/license/ecklf/flutters.svg)](https://opensource.org/licenses/MIT)
+[![Powered by Flame](https://img.shields.io/badge/Powered%20by-%F0%9F%94%A5-orange.svg)](https://flame-engine.org)
+<img alt="Made with Flutter" src="https://img.shields.io/badge/Made%20with-Flutter-blue.svg">
+
 ## About
 
-A Flappy Bird clone made with Flutter.
+A Flappy Bird clone made with Flutter and Flame.
 
 ## Contributing
 
