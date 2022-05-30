@@ -8,6 +8,10 @@
 
 A Flappy Bird clone made with Flutter and Flame.
 
+<p align="center">
+<p>Inser Game Image Here.</p>
+</p>
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, 
