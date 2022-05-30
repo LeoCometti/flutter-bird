@@ -1,4 +1,4 @@
-# flutter_bird
+# Flutter Bird
 
 A new Flutter project.
 
