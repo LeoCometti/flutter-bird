@@ -6,10 +6,10 @@
 
 ## About
 
-A Flappy Bird clone made with Flutter and Flame.
+A Flappy Bird clone made with [Flutter](https://github.com/flutter/flutter) and [Flame](https://github.com/flame-engine/flame).
 
 <p align="center">
-<p>Inser Game Image Here.</p>
+<p><b>Insert Game Image Here.</b></p>
 </p>
 
 ## Contributing
