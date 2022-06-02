@@ -1,0 +1,15 @@
+name: flutter_bird_ci
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**.dart"
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      coverage_excludes: "*.g.dart"
+      min_coverage: 0 # Disables for now.
