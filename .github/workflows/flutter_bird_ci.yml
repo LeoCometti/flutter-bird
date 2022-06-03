@@ -11,5 +11,7 @@ jobs:
   build:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
     with:
+      flutter_channel: stable
+      flutter_version: 2.10.5
       coverage_excludes: "*.g.dart"
       min_coverage: 0 # Disables for now.
