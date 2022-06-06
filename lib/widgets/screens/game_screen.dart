@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 /// Where the game actually runs.
 class GameScreen extends StatelessWidget {
   /// Construct a new [GameScreen] instance.
-  const GameScreen({Key? key}) : super(key: key);
+  const GameScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

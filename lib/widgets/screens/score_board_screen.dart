@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 /// Shows the user's scores so far.
 class ScoreBoardScreen extends StatelessWidget {
   /// Construct a new [ScoreBoardScreen] instance.
-  const ScoreBoardScreen({Key? key}) : super(key: key);
+  const ScoreBoardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
