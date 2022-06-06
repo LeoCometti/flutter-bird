@@ -1,3 +1,4 @@
+import 'package:flame_splash_screen/flame_splash_screen.dart';
 import 'package:flutter/material.dart';
 
 /// Responsible for showing the Flame engine splash screen.
@@ -7,10 +8,9 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Splash Screen'),
-      ),
+    return FlameSplashScreen(
+      theme: FlameSplashTheme.dark,
+      onFinish: (BuildContext ctx) => Navigator.pushNamed(ctx, '/home'),
     );
   }
 }

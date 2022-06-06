@@ -15,6 +15,7 @@ class FlutterBirdApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Flutter Bird',
       home: const SplashScreen(),
       routes: {
         '/home': (BuildContext ctx) => const HomeScreen(),
