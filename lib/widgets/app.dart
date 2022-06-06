@@ -9,7 +9,7 @@ import 'package:flutter_bird/widgets/screens/splash_screen.dart';
 /// Responsible for setting the routes for the FlutterBird game.
 class FlutterBirdApp extends StatelessWidget {
   /// Construct a new [FlutterBirdApp] instance.
-  const FlutterBirdApp({super.key});
+  const FlutterBirdApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
