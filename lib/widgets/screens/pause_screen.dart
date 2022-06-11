@@ -5,6 +5,9 @@ class PauseScreen extends StatelessWidget {
   /// Construct a new [PauseScreen] instance.
   const PauseScreen({super.key});
 
+  /// Route name for [PauseScreen]
+  static const String route = '/pause';
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(

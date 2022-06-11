@@ -18,11 +18,11 @@ class FlutterBirdApp extends StatelessWidget {
       title: 'Flutter Bird',
       home: const SplashScreen(),
       routes: {
-        '/home': (BuildContext ctx) => const HomeScreen(),
-        '/game': (BuildContext ctx) => const GameScreen(),
-        '/pause': (BuildContext ctx) => const PauseScreen(),
-        '/gameover': (BuildContext ctx) => const GameOverScreen(),
-        '/scoreboard': (BuildContext ctx) => const ScoreBoardScreen(),
+        HomeScreen.route: (BuildContext ctx) => const HomeScreen(),
+        GameScreen.route: (BuildContext ctx) => const GameScreen(),
+        PauseScreen.route: (BuildContext ctx) => const PauseScreen(),
+        GameOverScreen.route: (BuildContext ctx) => const GameOverScreen(),
+        ScoreBoardScreen.route: (BuildContext ctx) => const ScoreBoardScreen(),
       },
     );
   }
