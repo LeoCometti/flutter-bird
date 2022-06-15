@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bird/gen/assets.gen.dart';
 
 /// The starting screen of the game.
 class HomeScreen extends StatelessWidget {
@@ -10,9 +11,19 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Home Screen'),
+    return Container(
+      constraints: const BoxConstraints.expand(),
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage(Assets.images.backgroundDay.path),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: const Scaffold(
+        backgroundColor: Colors.transparent,
+        body: Center(
+          child: Text('Home Screen'),
+        ),
       ),
     );
   }
